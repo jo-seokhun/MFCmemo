@@ -185,7 +185,7 @@ void CMFCmemoDlg::OnClickedBtnTest()
 
 	for (int i = 0 ; *(str + i); i++)  //i<strlen(str)
 	{
-		//char 배열 및 포인터를 이용
+		//char 배열 및 포인터를 이용 
 		sprintf(sp,"%02X ", str[i]);
 		while (*sp) sp++;
 
